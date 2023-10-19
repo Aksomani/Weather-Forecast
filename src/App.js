@@ -18,7 +18,7 @@ function App() {
         lat,
         lon,
         appid: WEATHER_API_KEY,
-        units: 'metric' // Add any other parameters you need
+        units: 'metric' 
       }
     });
 
@@ -27,7 +27,7 @@ function App() {
         lat,
         lon,
         appid: WEATHER_API_KEY,
-        units: 'metric' // Add any other parameters you need
+        units: 'metric' 
       }
     });
 
