@@ -43,11 +43,17 @@ function App() {
     console.log("forecast", forecast);
   }, [forecast]);
 
+  // const openModal = () =>{
+  //   setIsModelOpen(true);
+  // }
+
   return (
     <div className="container">
       <Search onSearchChange={handleSearchChange} />
       {currentWeather && <CurrentWeather data={currentWeather} />}
+      <br/>
       {forecast && <Forecast data={forecast} />}
+      
     </div>
   );
 }
